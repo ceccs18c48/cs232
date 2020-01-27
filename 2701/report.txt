@@ -1,0 +1,64 @@
+CEC CS 18 C48
+Remya C
+
+--------------------------------
+#1: Familiarisation of Linux Commands
+---------------------------------
+Basic Commands
+--------------------------------
+Output: or Input & Output
+
+$ script work.txt
+Script started, file is work.txt
+$ ls
+work.txt
+$ ls -l
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 13:44 work.txt
+$ ls -c
+work.txt
+$ ls -ltr
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 13:44 work.txt
+$ ~ /.bash_aliases
+bash: /home/s4c2: Is a directory
+$ cat > abc.txt
+Ubuntu
+Linux
+FTP
+Github
+^C
+$ sort -n abc.txt
+FTP
+Github
+Linux
+Ubuntu
+$ cat > xyz.txt
+1
+2
+3
+4
+^C
+$ paste abc.txt xyz.txt
+Ubuntu	1
+Linux	2
+FTP	3
+Github	4
+$ grep "n" abc.txt
+Ubuntu
+Linux
+$ grep "u" abc.txt
+Ubuntu
+Linux
+Github
+$ exit
+exit
+Script done, file is work.txt
+
+-------------------
+Remarks if any:
+-------------------------------------
+-------------------------------------
+
+
+
