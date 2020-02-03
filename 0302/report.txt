@@ -1,0 +1,240 @@
+CEC CS 18 C48
+Remya C
+--------------------------------
+#1:  Networking tasks (t3)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	ifconfig
+	ifconfig -a
+	route -n
+	ping 192.168.0.83
+	cat /etc/resolv.conf
+	echo "nameserver 1.1.1.1" >> resolv.conf
+
+---------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+	$ ifconfig
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.214  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::e87b:12d6:41c:8d1  prefixlen 64  scopeid 0x20<link>
+        ether 8c:ec:4b:d6:5d:28  txqueuelen 1000  (Ethernet)
+        RX packets 20745  bytes 8522744 (8.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3719  bytes 494846 (494.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 974  bytes 67595 (67.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 974  bytes 67595 (67.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ec:5c:68:5a:dd:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0 
+
+
+
+	$ ifconfig -a
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.214  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::e87b:12d6:41c:8d1  prefixlen 64  scopeid 0x20<link>
+        ether 8c:ec:4b:d6:5d:28  txqueuelen 1000  (Ethernet)
+        RX packets 23083  bytes 11480406 (11.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4719  bytes 562406 (562.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 974  bytes 67595 (67.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 974  bytes 67595 (67.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ec:5c:68:5a:dd:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+	$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 enp1s0
+
+
+
+	$ ping 192.168.0.83
+PING 192.168.0.83 (192.168.0.83) 56(84) bytes of data.
+64 bytes from 192.168.0.83: icmp_seq=1 ttl=64 time=0.918 ms
+64 bytes from 192.168.0.83: icmp_seq=2 ttl=64 time=0.505 ms
+64 bytes from 192.168.0.83: icmp_seq=3 ttl=64 time=0.442 ms
+64 bytes from 192.168.0.83: icmp_seq=4 ttl=64 time=0.617 ms
+64 bytes from 192.168.0.83: icmp_seq=5 ttl=64 time=0.774 ms
+64 bytes from 192.168.0.83: icmp_seq=6 ttl=64 time=0.403 ms
+64 bytes from 192.168.0.83: icmp_seq=7 ttl=64 time=0.412 ms
+64 bytes from 192.168.0.83: icmp_seq=8 ttl=64 time=0.664 ms
+64 bytes from 192.168.0.83: icmp_seq=9 ttl=64 time=0.498 ms
+64 bytes from 192.168.0.83: icmp_seq=10 ttl=64 time=0.779 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.83
+
+
+
+	
+	$ cat /etc/resolv.conf
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+search example.org
+
+-------------------
+Remarks if any:
+
+Routing table couldn't be manipulated and resolv.conf couldn't be accessed as student was not in the sudoers list.
+
+
+
+-------------------------------------
+-------------------------------------
+#2: Ftp usage (t5)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	sftp cs18c48@192.168.0.30
+	ssh cs18c48@192.168.0.30
+	rsync work.txt cs18c48@192.168.0.30:0302
+
+---------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+$ gedit example.txt
+$ sftp cs18c48@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c48@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put example.txt
+Uploading example.txt to /home/cs18c48/example.txt
+example.txt                                   100%    0     0.0KB/s   00:00    
+sftp> lcd ..
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c48/cs232
+sftp> ls
+2701                example.txt         examples.desktop    
+sftp> get report.txt
+File "/home/cs18c48/report.txt" not found.
+sftp> get example.txt
+Fetching /home/cs18c48/example.txt to example.txt
+sftp> rm example.txt
+Removing /home/cs18c48/example.txt
+sftp> quit
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#3:Further Networking tasks (t4)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	ssh 192.168.0.30
+	rsync work.txt cs18c48@192.168.0.30:0302
+	scp work.txt cs18c48@192.168.0.30:0302
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+$ ssh cs18c48@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c48@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+$ exit
+Connection to 192.168.0.30 closed.
+$ ls
+example.txt  resolv.conf  work.txt
+
+
+
+$ rsync work.txt cs18c48@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c48@192.168.0.30's password: 
+
+
+
+$ scp work.txt cs18c48@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c48@192.168.0.30's password: 
+work.txt                                      100%  140KB   9.2MB/s   00:00    
+$ exit
+
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
