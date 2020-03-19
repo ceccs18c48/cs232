@@ -1,0 +1,454 @@
+Script started on 2020-03-02 09:20:16+0530
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ sudo apt-get install usftpd
+[sudo] password for dell: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package usftpd
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ sudo apt-get install usftpd[1Psftpdvsftpd[C[C[C[C[C
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 380 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 334 kB of additional disk space will be used.
+0% [Working]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]^[[B0% [Waiting for headers]0% [Waiting for headers]^[[C0% [Waiting for headers]                        Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 vsftpd amd64 3.0.3-9build1 [115 kB]
+6% [1 vsftpd 8,421 B/115 kB 7%]                               100% [Working]              Fetched 115 kB in 60s (1,927 B/s)
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 208388 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-9build1_amd64.deb ...
+Unpacking vsftpd (3.0.3-9build1) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+ureadahead will be reprofiled on next reboot
+Setting up vsftpd (3.0.3-9build1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/vsftpd.service → /lib/systemd/system/vsftpd.service.
+Processing triggers for systemd (237-3ubuntu10.38) ...
+Processing triggers for man-db (2.8.3-2) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ sudo vim/etc/vsftpd.conf /etc/vsftpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"/etc/vsftpd.conf" 155L, 5850C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# Example config file /etc/vsftpd.conf
+#
+# The default compiled in settings are fairly paranoid. This sample file
+# loosens things up a bit, to make the ftp daemon more usable.
+# Please see vsftpd.conf.5 for all compiled in defaults.
+#
+# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+# capabilities.
+#
+#
+# Run standalone?  vsftpd can run either from an inetd or as a standalone
+# daemon started from an initscript.[m
+listen=NO
+[34m#
+# This directive enables listening on IPv6 sockets. By default, listening
+# on the IPv6 "any" address (::) will accept connections from both IPv6
+# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+# sockets. If you want that (perhaps because you want to listen on specific
+# addresses) then you must run two copies of vsftpd with two configuration
+# files.[m
+listen_ipv6=YES
+[34m#[m[24;63H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[96m# Example config file /etc/vsftpd.conf
+#
+# The default compiled in settings are fairly paranoid. This sample file
+# loosens things up a bit, to make the ftp daemon more usable.
+# Please see vsftpd.conf.5 for all compiled in defaults.
+#
+# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+# capabilities.
+#
+#
+# Run standalone?  vsftpd can run either from an inetd or as a standalone
+# daemon started from an initscript.[m
+listen=NO
+[96m#
+# This directive enables listening on IPv6 sockets. By default, listening
+# on the IPv6 "any" address (::) will accept connections from both IPv6
+# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+# sockets. If you want that (perhaps because you want to listen on specific
+# addresses) then you must run two copies of vsftpd with two configuration
+# files.[m
+listen_ipv6=YES
+[96m#[m[24;63H1,1[11CTop"/etc/vsftpd.conf" 155L, 5850C[1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [2;1H[24;63H2[2;1H[?25h[?25l[24;53H~@k[2;1H[24;53H   [3;1H[24;63H3[3;1H[?25h[?25l[24;53H~@k[3;1H[24;53H   [4;1H[24;63H4[4;1H[?25h[?25l[24;53H~@k[4;1H[24;53H   [5;1H[24;63H5[5;1H[?25h[?25l[24;53H~@k[5;1H[24;53H   [6;1H[24;63H6[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [7;1H[24;63H7[7;1H[?25h[?25l[24;53H~@k[7;1H[24;53H   [8;1H[24;63H8[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [9;1H[24;63H9[9;1H[?25h[?25l[24;53H~@k[9;1H[24;53H   [10;1H[24;63H10,1[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [11;1H[24;64H1[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [12;1H[24;64H2[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [13;1H[24;64H3[13;1H[?25h[?25l[24;53H~@k[13;1H[24;53H   [14;1H[24;64H4[14;1H[?25h[?25l[24;53H~@k[14;1H[24;53H   [15;1H[24;64H5[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [16;1H[24;64H6[16;1H[?25h[?25l[24;53H~@k[16;1H[24;53H   [17;1H[24;64H7[17;1H[?25h[?25l[24;53H~@k[17;1H[24;53H   [18;1H[24;64H8[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Allow anonymous FTP? (Disabled by default).[m[24;1H[K[24;63H19,1[11C0%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hanonymous_enable=NO[24;63H[K[24;63H20,1[11C1%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H21,1[11C2%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to allow local users to log in.[m[24;63H[K[24;63H22,1[11C3%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hlocal_enable=YES[24;63H[K[24;63H23,1[11C3%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H24,1[11C4%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to enable any form of FTP write command.[m[24;63H[K[24;63H25,1[11C5%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#write_enable=YES[m[24;63H[K[24;63H26,1[11C6%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H27,1[11C6%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Default umask for local users is 077. You may wish to change this to 022,[m[24;63H[K[24;63H28,1[11C7%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# if your users expect that (022 is used by most other ftpd's)[m[24;63H[K[24;63H29,1[11C8%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#local_umask=022[m[24;63H[K[24;63H30,1[11C9%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H31,1[11C9%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to allow the anonymous FTP user to upload files. This only[m[24;63H[K[24;63H32,1[10C10%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# has an effect if the above global write enable is activated. Also, you will[m[24;63H[K[24;63H33,1[10C11%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# obviously need to create a directory writable by the FTP user.[m[24;63H[K[24;63H34,1[10C12%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#anon_upload_enable=YES[m[24;63H[K[24;63H35,1[10C12%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H36,1[10C13%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this if you want the anonymous FTP user to be able to create[m[24;63H[K[24;63H37,1[10C14%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# new directories.[m[24;63H[K[24;63H38,1[10C15%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#anon_mkdir_write_enable=YES[m[24;63H[K[24;63H39,1[10C15%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H40,1[10C16%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Activate directory messages - messages given to remote users when they[m[24;63H[K[24;63H41,1[10C17%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# go into a certain directory.[m[24;63H[K[24;63H42,1[10C18%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hdirmessage_enable=YES[24;63H[K[24;63H43,1[10C18%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H44,1[10C19%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# If enabled, vsftpd will display directory listings with the time[m[24;63H[K[24;63H45,1[10C20%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# in  your  local  time  zone.  The default is to display GMT. The[m[24;63H[K[24;63H46,1[10C21%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# times returned by the MDTM FTP command are also affected by this[m[24;63H[K[24;63H47,1[10C21%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# option.[m[24;63H[K[24;63H48,1[10C22%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Huse_localtime=YES[24;63H[K[24;63H49,1[10C23%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H50,1[10C24%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Activate logging of uploads/downloads.[m[24;63H[K[24;63H51,1[10C25%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hxferlog_enable=YES[24;63H[K[24;63H52,1[10C25%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H53,1[10C26%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Make sure PORT transfer connections originate from port 20 (ftp-data).[m[24;63H[K[24;63H54,1[10C27%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hconnect_from_port_20=YES[24;63H[K[24;63H55,1[10C28%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H56,1[10C28%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# If you want, you can arrange for uploaded anonymous files to be owned by[m[24;63H[K[24;63H57,1[10C29%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# a different user. Note! Using "root" for uploaded files is not[m[24;63H[K[24;63H58,1[10C30%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# recommended![m[24;63H[K[24;63H59,1[10C31%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#chown_uploads=YES[m[24;63H[K[24;63H60,1[10C31%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#chown_username=whoever[m[24;63H[K[24;63H61,1[10C32%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H62,1[10C33%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may override where the log file goes if you like. The default is shown[m[24;63H[K[24;63H63,1[10C34%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# below.[m[24;63H[K[24;63H64,1[10C34%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#xferlog_file=/var/log/vsftpd.log[m[24;63H[K[24;63H65,1[10C35%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H66,1[10C36%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# If you want, you can have your log file in standard ftpd xferlog format.[m[24;63H[K[24;63H67,1[10C37%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Note that the default log file location is /var/log/xferlog in this case.[m[24;63H[K[24;63H68,1[10C37%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#xferlog_std_format=YES[m[24;63H[K[24;63H69,1[10C38%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H70,1[10C39%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may change the default value for timing out an idle session.[m[24;63H[K[24;63H71,1[10C40%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#idle_session_timeout=600[m[24;63H[K[24;63H72,1[10C40%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H73,1[10C41%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may change the default value for timing out a data connection.[m[24;63H[K[24;63H74,1[10C42%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#data_connection_timeout=120[m[24;63H[K[24;63H75,1[10C43%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H76,1[10C43%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# It is recommended that you define on your system a unique user which the[m[24;63H[K[24;63H77,1[10C44%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# ftp server can use as a totally isolated and unprivileged user.[m[24;63H[K[24;63H78,1[10C45%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#nopriv_user=ftpsecure[m[24;63H[K[24;63H79,1[10C46%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H80,1[10C46%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Enable this and the server will recognise asynchronous ABOR requests. Not[m[24;63H[K[24;63H81,1[10C47%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# recommended for security (the code is non-trivial). Not enabling it,[m[24;63H[K[24;63H82,1[10C48%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# however, may confuse older FTP clients.[m[24;63H[K[24;63H83,1[10C49%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#async_abor_enable=YES[m[24;63H[K[24;63H84,1[10C50%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H85,1[10C50%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# By default the server will pretend to allow ASCII mode but in fact ignore[m[24;63H[K[24;63H86,1[10C51%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# the request. Turn on the below options to have the server actually do ASCII[m[24;63H[K[24;63H87,1[10C52%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# mangling on files when in ASCII mode.[m[24;63H[K[24;63H88,1[10C53%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Beware that on some FTP servers, ASCII support allows a denial of service[m[24;63H[K[24;63H89,1[10C53%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd[m[24;63H[K[24;63H90,1[10C54%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# predicted this attack and has always been safe, reporting the size of the[m[24;63H[K[24;63H91,1[10C55%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# raw file.[m[24;63H[K[24;63H92,1[10C56%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# ASCII mangling is a horrible feature of the protocol.[m[24;63H[K[24;63H93,1[10C56%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#ascii_upload_enable=YES[m[24;63H[K[24;63H94,1[10C57%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#ascii_download_enable=YES[m[24;63H[K[24;63H95,1[10C58%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H96,1[10C59%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may fully customise the login banner string:[m[24;63H[K[24;63H97,1[10C59%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#ftpd_banner=Welcome to blah FTP service.[m[24;63H[K[24;63H98,1[10C60%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H99,1[10C61%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may specify a file of disallowed anonymous e-mail addresses. Apparently[m[24;63H[K[24;63H100,1[9C62%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# useful for combatting certain DoS attacks.[m[24;63H[K[24;63H101,1[9C62%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#deny_email_enable=YES[m[24;63H[K[24;63H102,1[9C63%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# (default follows)[m[24;63H[K[24;63H103,1[9C64%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#banned_email_file=/etc/vsftpd.banned_emails[m[24;63H[K[24;63H104,1[9C65%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H105,1[9C65%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may restrict local users to their home directories.  See the FAQ for[m[24;63H[K[24;63H106,1[9C66%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# the possible risks in this before using chroot_local_user or[m[24;63H[K[24;63H107,1[9C67%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# chroot_list_enable below.[m[24;63H[K[24;63H108,1[9C68%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H109,1[9C68%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H110,1[9C69%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may specify an explicit list of local users to chroot() to their home[m[24;63H[K[24;63H111,1[9C70%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# directory. If chroot_local_user is YES, then this list becomes a list of[m[24;63H[K[24;63H112,1[9C71%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# users to NOT chroot().[m[24;63H[K[24;63H113,1[9C71%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that[m[24;63H[K[24;63H114,1[9C72%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# the user does not have write access to the top level directory within the[m[24;63H[K[24;63H115,1[9C73%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# chroot)[m[24;63H[K[24;63H116,1[9C74%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H117,1[9C75%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_enable=YES[m[24;63H[K[24;63H118,1[9C75%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# (default follows)[m[24;63H[K[24;63H119,1[9C76%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_file=/etc/vsftpd.chroot_list[m[24;63H[K[24;63H120,1[9C77%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H121,1[9C78%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may activate the "-R" option to the builtin ls. This is disabled by[m[24;63H[K[24;63H122,1[9C78%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# default to avoid remote users being able to cause excessive I/O on large[m[24;63H[K[24;63H123,1[9C79%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume[m[24;63H[K[24;63H124,1[9C80%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# the presence of the "-R" option, so there is a strong case for enabling it.[m[24;63H[K[24;63H125,1[9C81%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#ls_recurse_enable=YES[m[24;63H[K[24;63H126,1[9C81%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H127,1[9C82%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Customization[m[24;63H[K[24;63H128,1[9C83%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H129,1[9C84%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Some of vsftpd's settings don't fit the filesystem layout by[m[24;63H[K[24;63H130,1[9C84%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# default.[m[24;63H[K[24;63H131,1[9C85%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H132,1[9C86%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# This option should be the name of a directory which is empty.  Also, the[m[24;63H[K[24;63H133,1[9C87%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# directory should not be writable by the ftp user. This directory is used[m[24;63H[K[24;63H134,1[9C87%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# as a secure chroot() jail at times vsftpd does not require filesystem[m[24;63H[K[24;63H135,1[9C88%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# access.[m[24;63H[K[24;63H136,1[9C89%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hsecure_chroot_dir=/var/run/vsftpd/empty[24;63H[K[24;63H137,1[9C90%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H138,1[9C90%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# This string is the name of the PAM service vsftpd will use.[m[24;63H[K[24;63H139,1[9C91%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hpam_service_name=vsftpd[24;63H[K[24;63H140,1[9C92%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H141,1[9C93%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# This option specifies the location of the RSA certificate to use for SSL[m[24;63H[K[24;63H142,1[9C93%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# encrypted connections.[m[24;63H[K[24;63H143,1[9C94%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hrsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem[24;63H[K[24;63H144,1[9C95%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hrsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key[24;63H[K[24;63H145,1[9C96%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hssl_enable=NO[24;63H[K[24;63H146,1[9C96%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[24;63H[K[24;63H147,1[9C97%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H148,1[9C98%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to indicate that vsftpd use a utf8 filesystem.[m[24;63H[K[24;63H149,1[9C99%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#utf8_filesystem=YES[m[24;63H[K[24;63H150,1[9CBot[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [19;1H[24;65H1[19;1H[?25h[?25l[24;53H~@k[19;1H[24;53H   [20;1H[24;65H2,0-1[20;1H[?25h[?25l[24;53H~@k[20;1H[24;53H   [21;1H[24;65H3,1  [21;1H[?25h[?25l[24;53H~@k[21;1H[24;53H   [22;1H[24;65H4[22;1H[?25h[?25l[24;53H~@k[22;1H[24;53H   [23;1H[24;65H5[23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [23;1H[?25h[?25l[24;53H~@k[23;1H[24;53H   [22;1H[24;65H4[22;1H[?25h[?25l[24;53H~@k[22;1H[24;53H   [21;1H[24;65H3[21;1H[?25h[?25l[24;53H~@k[21;1H[24;53H   [20;1H[24;65H2,0-1[20;1H[?25h[?25l[24;53H~@k[20;1H[24;53H   [19;1H[24;65H1,1  [19;1H[?25h[?25l[24;53H~@k[19;1H[24;53H   [18;1H[24;65H0[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [17;1H[24;64H49[17;1H[?25h[?25l[24;53H~@k[17;1H[24;53H   [16;1H[24;65H8[16;1H[?25h[?25l[24;53H~@k[16;1H[24;53H   [15;1H[24;65H7[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [14;1H[24;65H6[14;1H[?25h[?25l[24;53H~@k[14;1H[24;53H   [13;1H[24;65H5[13;1H[?25h[?25l[24;53H~@k[13;1H[24;53H   [12;1H[24;65H4[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [11;1H[24;65H3[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [10;1H[24;65H2[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [9;1H[24;65H1[9;1H[?25h[?25l[24;53H~@k[9;1H[24;53H   [8;1H[24;65H0[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [7;1H[24;64H39[7;1H[?25h[?25l[24;53H~@k[7;1H[24;53H   [6;1H[24;65H8[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H137,1[9C99%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#ls_recurse_enable=YES[m[24;63H[K[24;63H136,1[9C98%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# the presence of the "-R" option, so there is a strong case for enabling it.[m[24;63H[K[24;63H135,1[9C97%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume[m[24;63H[K[24;63H134,1[9C96%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# default to avoid remote users being able to cause excessive I/O on large[m[24;63H[K[24;63H133,1[9C96%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may activate the "-R" option to the builtin ls. This is disabled by[m[24;63H[K[24;63H132,1[9C95%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H131,1[9C94%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_list_file=/etc/vsftpd.chroot_list[m[24;63H[K[24;63H130,1[9C93%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# (default follows)[m[24;63H[K[24;63H129,1[9C93%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_list_enable=YES[m[24;63H[K[24;63H128,1[9C92%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H127,1[9C91%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# chroot)[m[24;63H[K[24;63H126,1[9C90%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# the user does not have write access to the top level directory within the[m[24;63H[K[24;63H125,1[9C90%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that[m[24;63H[K[24;63H124,1[9C89%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# users to NOT chroot().[m[24;63H[K[24;63H123,1[9C88%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# directory. If chroot_local_user is YES, then this list becomes a list of[m[24;63H[K[24;63H122,1[9C87%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may specify an explicit list of local users to chroot() to their home[m[24;63H[K[24;63H121,1[9C87%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H120,1[9C86%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H119,1[9C85%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# chroot_list_enable below.[m[24;63H[K[24;63H118,1[9C84%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# the possible risks in this before using chroot_local_user or[m[24;63H[K[24;63H117,1[9C84%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may restrict local users to their home directories.  See the FAQ for[m[24;63H[K[24;63H116,1[9C83%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H115,1[9C82%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#banned_email_file=/etc/vsftpd.banned_emails[m[24;63H[K[24;63H114,1[9C81%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# (default follows)[m[24;63H[K[24;63H113,1[9C81%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#deny_email_enable=YES[m[24;63H[K[24;63H112,1[9C80%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# useful for combatting certain DoS attacks.[m[24;63H[K[24;63H111,1[9C79%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may specify a file of disallowed anonymous e-mail addresses. Apparently[m[24;63H[K[24;63H110,1[9C78%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H109,1[9C78%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#ftpd_banner=Welcome to blah FTP service.[m[24;63H[K[24;63H108,1[9C77%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may fully customise the login banner string:[m[24;63H[K[24;63H107,1[9C76%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H106,1[9C75%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#ascii_download_enable=YES[m[24;63H[K[24;63H105,1[9C75%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#ascii_upload_enable=YES[m[24;63H[K[24;63H104,1[9C74%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# ASCII mangling is a horrible feature of the protocol.[m[24;63H[K[24;63H103,1[9C73%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# raw file.[m[24;63H[K[24;63H102,1[9C72%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# predicted this attack and has always been safe, reporting the size of the[m[24;63H[K[24;63H101,1[9C71%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd[m[24;63H[K[24;63H100,1[9C71%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# Beware that on some FTP servers, ASCII support allows a denial of service[m[24;63H[K[24;63H99,1[10C70%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# mangling on files when in ASCII mode.[m[24;63H[K[24;63H98,1[10C69%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# the request. Turn on the below options to have the server actually do ASCII[m[24;63H[K[24;63H97,1[10C68%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# By default the server will pretend to allow ASCII mode but in fact ignore[m[24;63H[K[24;63H96,1[10C68%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H95,1[10C67%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [7;1H[24;64H6[7;1H[?25h[?25l[24;53H~@k[7;1H[24;53H   [8;1H[24;64H7[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [9;1H[24;64H8[9;1H[?25h[?25l[24;53H~@k[9;1H[24;53H   [10;1H[24;64H9[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [11;1H[24;63H100,1[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [10;1H[24;63H99,1 [10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [10;2H[24;66H2[10;2H[?25h[?25l[24;53H~@k[10;2H[24;53H   [10;1H[24;66H1[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [10;2H[24;66H2[10;2H[?25h[?25l[24;53H~@k[10;2H[24;53H   [10;1H[24;66H1[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [9;55H[24;64H8,55[9;55H[?25h[?25l[24;53H~@k[9;55H[24;53H   [10;24H[24;64H9,24[10;24H[?25h[?25l[24;53H~@k[10;24H[24;53H   [10;23H[24;67H3[10;23H[?25h[?25l[24;53H~@k[10;23H[24;53H   [10;22H[24;67H2[10;22H[?25h[?25l[24;53H~@k[10;22H[24;53H   [10;21H[24;67H1[10;21H[?25h[?25l[24;53H~@k[10;21H[24;53H   [10;20H[24;67H0[10;20H[?25h[?25l[24;53H~@k[10;20H[24;53H   [10;19H[24;66H19[10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;18H[24;67H8[10;18H[?25h[?25l[24;53H~@k[10;18H[24;53H   [10;17H[24;67H7[10;17H[?25h[?25l[24;53H~@k[10;17H[24;53H   [10;16H[24;67H6[10;16H[?25h[?25l[24;53H~@k[10;16H[24;53H   [10;15H[24;67H5[10;15H[?25h[?25l[24;53H~@k[10;15H[24;53H   [10;14H[24;67H4[10;14H[?25h[?25l[24;53H~@k[10;14H[24;53H   [10;13H[24;67H3[10;13H[?25h[?25l[24;53H~@k[10;13H[24;53H   [10;12H[24;67H2[10;12H[?25h[?25l[24;53H~@k[10;12H[24;53H   [10;11H[24;67H1[10;11H[?25h[?25l[24;53H~@k[10;11H[24;53H   [10;10H[24;67H0[10;10H[?25h[?25l[24;53H~@k[10;10H[24;53H   [10;9H[24;66H9 [10;9H[?25h[?25l[24;53H~@k[10;9H[24;53H   [10;8H[24;66H8[10;8H[?25h[?25l[24;53H~@k[10;8H[24;53H   [10;7H[24;66H7[10;7H[?25h[?25l[24;53H~@k[10;7H[24;53H   [10;6H[24;66H6[10;6H[?25h[?25l[24;53H~@k[10;6H[24;53H   [10;5H[24;66H5[10;5H[?25h[?25l[24;53H~@k[10;5H[24;53H   [10;4H[24;66H4[10;4H[?25h[?25l[24;53H~@k[10;4H[24;53H   [10;3H[24;66H3[10;3H[?25h[?25l[24;53H~@k[10;3H[24;53H   [10;2H[24;66H2[10;2H[?25h[?25l[24;53H~@k[10;2H[24;53H   [11;2H[24;63H100,2[11;2H[?25h[?25l[24;53H~@k[11;2H[24;53H   [12;1H[24;65H1,1[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [13;2H[24;65H2,2[13;2H[?25h[?25l[24;53H~@k[13;2H[24;53H   [14;2H[24;65H3[14;2H[?25h[?25l[24;53H~@k[14;2H[24;53H   [15;1H[24;65H4,1[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [16;2H[24;65H5,2[16;2H[?25h[?25l[24;53H~@k[16;2H[24;53H   [17;2H[24;65H6[17;2H[?25h[?25l[24;53H~@k[17;2H[24;53H   [18;2H[24;65H7[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# chroot_list_enable below.[m[24;63H[K[24;63H108,2[9C68%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H109,2[9C68%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H110,1[9C69%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# You may specify an explicit list of local users to chroot() to their home[m[24;63H[K[24;63H111,2[9C70%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# directory. If chroot_local_user is YES, then this list becomes a list of[m[24;63H[K[24;63H112,2[9C71%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# users to NOT chroot().[m[24;63H[K[24;63H113,2[9C71%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that[m[24;63H[K[24;63H114,2[9C72%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# the user does not have write access to the top level directory within the[m[24;63H[K[24;63H115,1[9C73%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# chroot)[m[24;63H[K[24;63H116,2[9C74%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H117,2[9C75%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_enable=YES[m[24;63H[K[24;63H118,2[9C75%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# (default follows)[m[24;63H[K[24;63H119,2[9C76%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_file=/etc/vsftpd.chroot_list[m[24;63H[K[24;63H120,2[9C77%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H121,2[9C78%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# You may activate the "-R" option to the builtin ls. This is disabled by[m[24;63H[K[24;63H122,2[9C78%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# default to avoid remote users being able to cause excessive I/O on large[m[24;63H[K[24;63H123,2[9C79%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume[m[24;63H[K[24;63H124,2[9C80%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# the presence of the "-R" option, so there is a strong case for enabling it.[m[24;63H[K[24;63H125,2[9C81%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#ls_recurse_enable=YES[m[24;63H[K[24;63H126,1[9C81%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H127,2[9C82%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# Customization[m[24;63H[K[24;63H128,2[9C83%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H129,2[9C84%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# Some of vsftpd's settings don't fit the filesystem layout by[m[24;63H[K[24;63H130,2[9C84%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# default.[m[24;63H[K[24;63H131,2[9C85%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H132,1[9C86%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# This option should be the name of a directory which is empty.  Also, the[m[24;63H[K[24;63H133,2[9C87%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# directory should not be writable by the ftp user. This directory is used[m[24;63H[K[24;63H134,1[9C87%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# as a secure chroot() jail at times vsftpd does not require filesystem[m[24;63H[K[24;63H135,2[9C88%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# access.[m[24;63H[K[24;63H136,2[9C89%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hsecure_chroot_dir=/var/run/vsftpd/empty[24;63H[K[24;63H137,1[9C90%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H138,2[9C90%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# This string is the name of the PAM service vsftpd will use.[m[24;63H[K[24;63H139,2[9C91%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1Hpam_service_name=vsftpd[24;63H[K[24;63H140,2[9C92%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H141,2[9C93%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# This option specifies the location of the RSA certificate to use for SSL[m[24;63H[K[24;63H142,2[9C93%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# encrypted connections.[m[24;63H[K[24;63H143,1[9C94%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1Hrsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem[24;63H[K[24;63H144,2[9C95%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1Hrsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key[24;63H[K[24;63H145,2[9C96%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hssl_enable=NO[24;63H[K[24;63H146,1[9C96%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[24;63H[K[24;63H147,2[9C97%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H148,2[9C98%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to indicate that vsftpd use a utf8 filesystem.[m[24;63H[K[24;63H149,2[9C99%[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [18;2H[1;23r[23;1H
+[1;24r[23;1H[96m#utf8_filesystem=YES[m[24;63H[K[24;63H150,2[9CBot[18;2H[?25h[?25l[24;53H~@k[18;2H[24;53H   [19;2H[24;65H1[19;2H[?25h[?25l[24;53H~@k[19;2H[24;53H   [20;1H[24;65H2,0-1[20;1H[?25h[?25l[24;53H~@k[20;1H[24;53H   [21;1H[24;65H3,1  [21;1H[?25h[?25l[24;53H~@k[21;1H[24;53H   [22;2H[24;65H4,2[22;2H[?25h[?25l[24;53H~@k[22;2H[24;53H   [23;2H[24;65H5[23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;2H[?25h[?25l[24;53H~@k[23;2H[24;53H   [23;3H[24;67H3[23;3H[?25h[?25l[24;53H~@k[23;3H[24;53H   [23;4H[24;67H4[23;4H[?25h[?25l[24;53H~@k[23;4H[24;53H   [23;5H[24;67H5[23;5H[?25h[?25l[24;53H~@k[23;5H[24;53H   [23;6H[24;67H6[23;6H[?25h[?25l[24;53H~@k[23;6H[24;53H   [23;7H[24;67H7[23;7H[?25h[?25l[24;53H~@k[23;7H[24;53H   [23;8H[24;67H8[23;8H[?25h[?25l[24;53H~@k[23;8H[24;53H   [23;9H[24;67H9[23;9H[?25h[?25l[24;53H~@k[23;9H[24;53H   [23;10H[24;67H10[23;10H[?25h[?25l[24;53H~@k[23;10H[24;53H   [23;11H[24;68H1[23;11H[?25h[?25l[24;53H~@k[23;11H[24;53H   [23;12H[24;68H2[23;12H[?25h[?25l[24;53H~@k[23;12H[24;53H   [23;13H[24;68H3[23;13H[?25h[?25l[24;53H~@k[23;13H[24;53H   [23;14H[24;68H4[23;14H[?25h[?25l[24;53H~@k[23;14H[24;53H   [23;15H[24;68H5[23;15H[?25h[?25l[24;53H~@k[23;15H[24;53H   [23;16H[24;68H6[23;16H[?25h[?25l[24;53H~@k[23;16H[24;53H   [23;17H[24;68H7[23;17H[?25h[?25l[24;53H~@k[23;17H[24;53H   [23;18H[24;68H8[23;18H[?25h[?25l[24;53H~@k[23;18H[24;53H   [23;19H[24;68H9[23;19H[?25h[?25l[24;53H~@k[23;19H[24;53H   [23;20H[24;67H20[23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H:[23;20H[24;53H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[24;2H[K[24;2H[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"/etc/vsftpd.conf" 155L, 5850C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ sudo vim /etc/vsftpd.conf[1P /etc/vsftpd.conf[1P /etc/vsftpd.conf[1P /etc/vsftpd.confg /etc/vsftpd.confe /etc/vsftpd.confd /etc/vsftpd.confi /etc/vsftpd.conft /etc/vsftpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+** (gedit:7086): [1;33mWARNING[0m **: [34m09:40:48.419[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:7086): [1;33mWARNING[0m **: [34m09:40:48.419[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:7086): [1;33mWARNING[0m **: [34m09:40:51.022[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:7086): [1;33mWARNING[0m **: [34m09:40:51.023[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:7086): [1;33mWARNING[0m **: [34m09:40:52.462[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ ifconfig
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.98  netmask 255.255.254.0  broadcast 192.168.1.255
+        inet6 fe80::51b:f401:edf7:ad6a  prefixlen 64  scopeid 0x20<link>
+        ether e4:54:e8:a9:06:f0  txqueuelen 1000  (Ethernet)
+        RX packets 170687  bytes 201898948 (201.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 65783  bytes 5167291 (5.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 11690  bytes 902142 (902.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 11690  bytes 902142 (902.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ac:d5:64:51:de:fb  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ ftp 192.1.[K68.0.85
+Connected to 192.168.0.85.
+220 (vsFTPd 3.0.3)
+Name (192.168.0.85:dell): ccad    admin
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> c\[K[Kquit
+221 Goodbye.
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ ftp 192.168.0.85
+Connected to 192.168.0.85.
+220 (vsFTPd 3.0.3)
+Name (192.168.0.85:dell): s4c2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 1003     1003         4096 Feb 03 09:27 Desktop
+drwxr-xr-x    2 1003     1003         4096 Feb 03 09:27 Documents
+drwxr-xr-x    2 1003     1003         4096 Feb 10 10:40 Downloads
+drwxr-xr-x    2 1003     1003         4096 Feb 03 09:27 Music
+drwxr-xr-x    2 1003     1003         4096 Feb 03 09:27 Pictures
+drwxr-xr-x    2 1003     1003         4096 Feb 03 09:27 Public
+drwxr-xr-x    2 1003     1003         4096 Feb 03 09:27 Templates
+drwxr-xr-x    2 1003     1003         4096 Feb 03 09:27 Videos
+drwxr-xr-x    2 1003     1003         4096 Feb 24 09:47 ceccs18c19
+drwxr-xr-x    3 1003     1003         4096 Feb 03 09:47 ceccs18c48
+drwxr-xr-x    3 1003     1003         4096 Feb 10 09:17 ceccs18c49
+-rw-r--r--    1 1003     1003         8980 Jan 28 18:37 examples.desktop
+226 Directory send OK.
+ftp> cd ..
+250 Directory successfully changed.
+ftp> quit
+221 Goodbye.
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ 192.168.0.98 [K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt-get install apache2
+[sudo] password for dell: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 380 not upgraded.
+Need to get 1,713 kB of archives.
+After this operation, 6,917 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+0% [1 libapr1 9,870 B/90.9 kB 11%]                                  6% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+7% [2 libaprutil1 5,526 B/84.4 kB 7%]                                     13% [Waiting for headers]                         Get:3 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 [10.6 kB]
+13% [3 libaprutil1-dbd-sqlite3 4,344 B/10.6 kB 41%]                                                   15% [Waiting for headers]                         Get:4 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8,764 B]
+15% [4 libaprutil1-ldap 0 B/8,764 B 0%]                                       18% [Waiting for headers]                         Get:5 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+18% [5 liblua5.2-0 6,973 B/108 kB 6%]                                     25% [Waiting for headers]                         Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubuntu4.11 [1,071 kB]
+26% [6 apache2-bin 5,523 B/1,071 kB 1%]35% [6 apache2-bin 215 kB/1,071 kB 20%]49% [6 apache2-bin 514 kB/1,071 kB 48%]64% [6 apache2-bin 828 kB/1,071 kB 77%]                                       77% [Waiting for headers]                         Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ubuntu4.11 [83.9 kB]
+78% [7 apache2-utils 5,792 B/83.9 kB 7%]                                        84% [Waiting for headers]                         Get:8 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubuntu4.11 [160 kB]
+84% [8 apache2-data 2,896 B/160 kB 2%]                                      93% [Waiting for headers]                         Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.11 [95.1 kB]
+94% [9 apache2 5,792 B/95.1 kB 6%]                                  100% [Working]              Fetched 1,713 kB in 11s (153 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 208445 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.29-1ubuntu4.11_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.11) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../6-apache2-utils_2.4.29-1ubuntu4.11_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.11) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../7-apache2-data_2.4.29-1ubuntu4.11_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.11) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.29-1ubuntu4.11_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.11) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Processing triggers for ufw (0.35-5) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Setting up apache2-data (2.4.29-1ubuntu4.11) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Processing triggers for systemd (237-3ubuntu10.38) ...
+Processing triggers for man-db (2.8.3-2) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.11) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.11) ...
+Setting up apache2 (2.4.29-1ubuntu4.11) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.38) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Processing triggers for ufw (0.35-5) ...
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ sudo gedit/[K /var/www/html/index.html
+
+** (gedit:8557): [1;33mWARNING[0m **: [34m10:17:11.303[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:8557): [1;33mWARNING[0m **: [34m10:17:11.304[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8557): [1;33mWARNING[0m **: [34m10:22:08.424[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:8557): [1;33mWARNING[0m **: [34m10:22:08.424[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8557): [1;33mWARNING[0m **: [34m10:22:09.634[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ sudo gedit /var/www/html/index.html
+[sudo] password for dell: 
+
+** (gedit:9290): [1;33mWARNING[0m **: [34m10:25:30.024[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:9290): [1;33mWARNING[0m **: [34m10:25:30.024[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9290): [1;33mWARNING[0m **: [34m10:25:49.659[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:9290): [1;33mWARNING[0m **: [34m10:25:49.659[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9290): [1;33mWARNING[0m **: [34m10:25:51.174[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;dell@Dell: ~/ceccs18c48/cs232/0203[01;32mdell@Dell[00m:[01;34m~/ceccs18c48/cs232/0203[00m$ exit
+exit
+
+Script done on 2020-03-02 10:36:52+0530
