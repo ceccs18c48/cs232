@@ -1,0 +1,45 @@
+CEC CS 18 C48     21-03-2020
+Remya C
+
+--------------------------------
+#1: Perl Program(t8) (2)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	#Welcome to Perl! Program
+	 /welcome.pl
+	#Accessing an array
+	 /string.pl
+	#Add two numbers
+	 /addn.pl
+	#Using while loop
+	 /whilel.pl
+---------------------------------
+
+Output: 
+
+	#Output of Welcome to Perl! Program
+	 Welcome to Perl!
+
+	#Output of Accessing an array
+	 Linux
+ 	 Networking
+ 	 Installation
+ 	 Perl
+ 	 Webpage
+
+	#Output of Add two numbers
+	 40
+	 
+	#Output Using while loop
+	 5 4 3 2 1 
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
