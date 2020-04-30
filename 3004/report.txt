@@ -1,0 +1,96 @@
+CEC CS 18 C48
+Remya C
+
+Mac Address: ba:f9:9d:49:88:56
+IP Address: 192.168.42.119
+
+--------------------------------
+#1: Linux Installation(t6)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	#Installation of Ubuntu 18.04 LTS using Bootable pendrive
+
+		ubuntu 18.04 LTS
+	
+	#Various commands used:
+	
+		lspci
+
+		uname
+
+		uname -r
+ 		
+		lsblk
+---------------------------------
+Output:
+	#Attached screenshots 1-13(.png) shows various steps in installation.
+
+	#ubuntu 18.04 LTS is installed alongside windows 10.
+
+	#Screenshot of commands used further and their outputs are attached (14.png)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2: Package Management(t8.1)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	#Already installed packages list
+		
+		dpkg -l
+	
+	#Installing VLC media player on ubuntu using ppa
+
+		sudo add-apt-repository ppa:videolan/stable-daily
+		
+		sudo apt-get update
+		
+		sudo apt-get install vlc
+
+	#To check whether apache2 package is installed or not 
+	
+		dpkg -l apache2
+
+	# Update list of available packages
+	
+		sudo apt update
+	
+	# Install a package using apt
+	
+		sudo apt-get install nmap
+	
+	# Remove a package using apt
+	
+		sudo apt remove nmap
+	
+	# List all installed packages
+	
+		sudo apt list > package.txt
+		
+---------------------------------
+Output:
+	
+	#Installed packages list
+
+		package.txt
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
