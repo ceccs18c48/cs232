@@ -1,0 +1,326 @@
+Script started on 2020-04-26 14:21:24+0530
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ chm[K[K[Knano calc.sh
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 32 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                       calc.sh                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[3d[39;49m[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter two operand values:"[5d(B[0m[32mread[39m(B[m x[6d[32mread[39m(B[m y[7d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter your choice :"[8d[34mecho[39m(B[m (B[0;1m[33m"1.Addition"[9d[34mecho[39m(B[m (B[0;1m[33m"2.Subtraction"[10d[34mecho[39m(B[m (B[0;1m[33m"3.Multiplication"[11d[34mecho[39m(B[m (B[0;1m[33m"4.Division"[12d[34mecho[39m(B[m (B[0;1m[33m"5.Modulus"[13d(B[0m[32mread[39m(B[m choice[14d[32mcase[39m(B[m (B[0;1m[31m$choice[39m(B[m [32min[15d[39m(B[m1[32m)[16d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Sum is $((x+y))"[17d(B[0m[32m;;[18d[39m(B[m2[32m)[19d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Difference is $((x-y))"[20d(B[0m[32m;;[21d[39m(B[m3[32m)[3d[39m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m7[2;21r8[2dM[1;24r[4;1H[?12l[?25h[?25l[2;21r[21;1H
+[1;24r[21;1H3[32m)[3d[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[22d[K[4d[?12l[?25h[?25l[2;22r[22;1H
+[1;24r[21;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Product is $((x*y))"[3d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: calc.sh                                                     [22;1H(B[m[22;28H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 31 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[3d[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ chmod [K _[K+x calc.sh
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ ./calc.sh
+Enter two operand values:
+9
+6
+Enter your choice :
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+1
+Sum is 15
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ ./calc.sh
+Enter two operand values:
+9
+6
+Enter your choice :
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+2
+Difference is 3
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ ./calc.sh
+Enter two operand values:
+9
+6
+Enter your choice :
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+3
+Product is 54
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ ./calc.sh
+Enter two operand values:
+9
+3
+Enter your choice :
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+3 4
+Quotient is 3
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ ./calc.sh
+Enter two operand values:
+9
+6
+Enter your choice :
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+5
+Remainder is 3
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ nano syscos4.sh
+[?1049h[22;0;0t[1;55r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[53;95H(B[0;7m[ Reading File ](B[m[53;94H(B[0;7m[ Read 25 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                    syscos4.sh                                                                                              [1;203H(B[m[54d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[54;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[54;188H(B[0;7m^◀(B[m Prev Word[55d(B[0;7m^X(B[m Exit[55;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Linter     (B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[55;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[55;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[53d[3d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"Currently Logged User\n"[4d[39m(B[mwhoami[5d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[6d[34mprintf[39m(B[m (B[0;1m[33m"Login Name\n"[7d[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[31m$LOGNAME[8d[34mprintf[39m(B[m (B[0;1m[33m"\n"[9d[34mprintf[39m(B[m (B[0;1m[33m"Current shell and path to the shell\n"[10d[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[31m$0[11d[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[31m$SHELL[12d[34mprintf[39m(B[m (B[0;1m[33m"\n"[13d[34mprintf[39m(B[m (B[0;1m[33m"Home Directory\n"[14d[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[39m(B[m (B[0;1m[31m$HOME[15d[34mprintf[39m(B[m (B[0;1m[33m"\n"[16d[34mprintf[39m(B[m (B[0;1m[33m"Operating System Type\n"[17d[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[39m(B[m (B[0;1m[31m$OSTYPE[18d[34mprintf[39m(B[m (B[0;1m[33m"\n"[19d[34mprintf[39m(B[m (B[0;1m[33m"Current Path Settings\n"[20d[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[39m(B[m (B[0;1m[31m$PATH[21d[34mprintf[39m(B[m (B[0;1m[33m"\n"[22d[34mprintf[39m(B[m (B[0;1m[33m"CURRENT WORKING DIRECTORY\n"[23d[39m(B[mpwd[24d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[25d[34mprintf[39m(B[m (B[0;1m[33m"No of Users Currently Logged in\n"[26d[39m(B[mw[27d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[3d[39m(B[m[?12l[?25h[?25l[54;18H[28X[54;52H(B[0;7mM-D(B[m DOS Format             [86G          [54;105H(B[0;7mA(B[m Append[120G[34X[54;154H(B[0;7mM-B(B[m Backup File[K[55;2H(B[0;7mC(B[m Cancel[55;18H[27X[55;52H(B[0;7mM-M(B[m Mac Format[33X[55;105H(B[0;7mP(B[m Prepend[120G[34X[55;154H(B[0;7m^T(B[m To Files[K[53d(B[0;7mFile Name to Write: syscos4.sh                                                                                                                                                                              [53;1H(B[m[53;31H[?12l[?25h[?25l[K[1;203H[53;94H(B[0;7m[ Wrote 25 lines ](B[m[54;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[54;105H(B[0;7mU(B[m Undo  [120G(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[54;188H(B[0;7m^◀(B[m Prev Word[55;2H(B[0;7mX(B[m Exit  [55;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Linter     (B[0;7m^_(B[m Go To Line[105G(B[0;7mE(B[m Redo   [120G(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next   [171G(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[53d[3d[?12l[?25h[?25l[53d[J[55;204H[?12l[?25h[55;1H[?1049l[23;0;0t[?1l>]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ nano syscos4.sh[6P./calc.shchmod +x calc.sh[1P.sh[1P.sh[1P.sh[1P.shs.shy.shs.shc.sho.shs.sh4.sh[C[C[C
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ chmod +x syscos4.sh[4Pnano[C[C[C[C[C[C[C[C[C[C[C[6P./calc.sh[1P.sh[1P.sh[1P.sh[1P.shs.shy.shs.shc.sho.shs.sh4.sh[C[C[C
+Currently Logged User
+remya
+
+Login Name
+
+remya
+Current shell and path to the shell
+
+./syscos4.sh
+/bin/bash
+Home Directory
+/home/remya
+
+Operating System Type
+linux-gnu
+
+Current Path Settings
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+CURRENT WORKING DIRECTORY
+/home/remya/ceccs18c48/cs232/2604
+
+No of Users Currently Logged in
+ 14:24:29 up  1:48,  1 user,  load average: 0.09, 0.35, 0.40
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+remya    :0       :0               12:36   ?xdm?   1:54   0.01s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ ./syscos4.shchmod +x syscos4.sh[4Pnano[C[C[C[C[C[C[C[C[C[C[C[1P.sh5.sh[C[C[C
+[?1049h[22;0;0t[1;55r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[53;95H(B[0;7m[ Reading File ](B[m[53;94H(B[0;7m[ Read 23 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                    syscos5.sh                                                                                              [1;203H(B[m[54d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[54;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[54;188H(B[0;7m^◀(B[m Prev Word[55d(B[0;7m^X(B[m Exit[55;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Linter     (B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[55;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[55;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[53d[3d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"OS AND VERSION,RELEASE NUMBER,KERNEL VERSION\n"[4d[39m(B[mhostnamectl[5duname [32m-r[6d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[7d[34mprintf[39m(B[m (B[0;1m[33m"AVAILABLE SHELLS\n"[8d[34mcat[39m(B[m /etc/shells[9d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[10d[34mprintf[39m(B[m (B[0;1m[33m"CPU INFORMATION\n"[11d[39m(B[mless /proc/cpuinfo[12dlscpu[13d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[14d[34mprintf[39m(B[m (B[0;1m[33m"MEMORY INFORMATION\n"[15d[39m(B[mfree[16d(B[0;1m[34mcat[39m(B[m /proc/meminfo[17d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[18d[34mprintf[39m(B[m (B[0;1m[33m"HARD DISK INFORMATION\n"[19d[39m(B[msudo parted -l[20ddf -h[21d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[22d[34mprintf[39m(B[m (B[0;1m[33m"FILE SYSTEM (MOUNTED)\n"[23d[39m(B[mfindmnt[24dfdisk[25d(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"\n"[3d[39m(B[m[?12l[?25h[?25l[54;18H[28X[54;52H(B[0;7mM-D(B[m DOS Format             [86G          [54;105H(B[0;7mA(B[m Append[120G[34X[54;154H(B[0;7mM-B(B[m Backup File[K[55;2H(B[0;7mC(B[m Cancel[55;18H[27X[55;52H(B[0;7mM-M(B[m Mac Format[33X[55;105H(B[0;7mP(B[m Prepend[120G[34X[55;154H(B[0;7m^T(B[m To Files[K[53d(B[0;7mFile Name to Write: syscos5.sh                                                                                                                                                                              [53;1H(B[m[53;31H[?12l[?25h[?25l[K[1;203H[53;94H(B[0;7m[ Wrote 23 lines ](B[m[54;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[54;105H(B[0;7mU(B[m Undo  [120G(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[54;188H(B[0;7m^◀(B[m Prev Word[55;2H(B[0;7mX(B[m Exit  [55;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Linter     (B[0;7m^_(B[m Go To Line[105G(B[0;7mE(B[m Redo   [120G(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next   [171G(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[53d[3d[?12l[?25h[?25l[53d[J[55;204H[?12l[?25h[55;1H[?1049l[23;0;0t[?1l>]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ nano syscos5.sh[3P./syscos4.shchmod +x syscos4.sh[1P.sh5.sh
+]0;remya@uneyeverse: ~/ceccs18c48/cs232/2604[01;32mremya@uneyeverse[00m:[01;34m~/ceccs18c48/cs232/2604[00m$ chmod +x syscos5.sh[4Pnano[C[C[C[C[C[C[C[C[C[C[C[3P./syscos4.sh].sh[1P.sh[1P.sh5.sh[C[C[C
+OS AND VERSION,RELEASE NUMBER,KERNEL VERSION
+   Static hostname: uneyeverse
+         Icon name: computer-laptop
+           Chassis: laptop
+        Machine ID: c03e0c07c0434ba0a0e7237229a5a676
+           Boot ID: a1a38afa61204cc2a2dbda1358ca67ab
+  Operating System: Ubuntu 18.04 LTS
+            Kernel: Linux 4.15.0-20-generic
+      Architecture: x86-64
+4.15.0-20-generic
+
+AVAILABLE SHELLS
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+CPU INFORMATION
+[?1049h[22;0;0t[?1h=processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 142
+model name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping        : 10
+microcode       : 0xb4
+cpu MHz         : 1600.029
+cache size      : 6144 KB
+physical id     : 0
+siblings        : 8
+core id         : 0
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 22
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt s rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_time r aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clfl ushopt intel_pt xsaveopt xsavec xgetbv1 xsaves ibpb ibrs stibp dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+bugs            : cpu_meltdown spectre_v1 spectre_v2
+bogomips        : 3600.00
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 39 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 142
+model name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping        : 10
+microcode       : 0xb4
+cpu MHz         : 1600.028
+cache size      : 6144 KB
+physical id     : 0
+siblings        : 8
+core id         : 1
+cpu cores       : 4
+apicid          : 2
+initial apicid  : 2
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 22
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt s rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_time r aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clfl ushopt intel_pt xsaveopt xsavec xgetbv1 xsaves ibpb ibrs stibp dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+bugs            : cpu_meltdown spectre_v1 spectre_v2
+[7m/proc/cpuinfo[27m[K[K [KESCESC[KOO[KBB[Kbogomips        : 3600.00
+:[K[K [KESCESC[KOO[KBB[Kclflush size    : 64
+:[K[K [KESCESC[KOO[KBB[Kcache_alignment : 64
+:[K[K [KESCESC[KOO[KBB[Kaddress sizes   : 39 bits physical, 48 bits virtual
+:[K[K [KESCESC[KOO[KBB[Kpower management:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[Kprocessor       : 2
+:[K[K [KESCESC[KOO[KBB[Kvendor_id       : GenuineIntel
+:[K[K [KESCESC[KOO[KBB[Kcpu family      : 6
+:[K[K [KESCESC[KOO[KBB[Kmodel           : 142
+:[K[K [KESCESC[KOO[KBB[Kmodel name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+:[K[K [KESCESC[KOO[KBB[Kstepping        : 10
+:[K[K [KESCESC[KOO[KBB[Kmicrocode       : 0xb4
+:[K[K [KESCESC[KOO[KBB[Kcpu MHz         : 1600.056
+:[K[K [KESCESC[KOO[KBB[Kcache size      : 6144 KB
+:[K[K [KESCESC[KOO[KBB[Kphysical id     : 0
+:[K[K [KESCESC[KOO[KBB[Ksiblings        : 8
+:[K[K [KESCESC[KOO[KBB[Kcore id         : 2
+:[K[K [KESCESC[KOO[KBB[Kcpu cores       : 4
+:[K[K [KESCESC[KOO[KBB[Kapicid          : 4
+:[K[K [KESCESC[KOO[KBB[Kinitial apicid  : 4
+:[K[K [KESCESC[KOO[KBB[Kfpu             : yes
+:[K[K [KESCESC[KOO[KBB[Kfpu_exception   : yes
+:[K[K [KESCESC[KOO[KBB[Kcpuid level     : 22
+:[K[K [KESCESC[KOO[KBB[Kwp              : yes
+:[K[K [KESCESC[KOO[KBB[Kflags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt :[K[K [KESCESC[KOO[KBB[Ks rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_time :[K[K [KESCESC[KOO[KBB[Kr aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clfl :[K[K [KESCESC[KOO[KBB[Kushopt intel_pt xsaveopt xsavec xgetbv1 xsaves ibpb ibrs stibp dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+:[K[K [KESCESC[KOO[KBB[Kbugs            : cpu_meltdown spectre_v1 spectre_v2
+:[K[K [KESCESC[KOO[KBB[Kbogomips        : 3600.00
+:[K[K [KESCESC[KOO[KBB[Kclflush size    : 64
+:[K[K [KESCESC[KOO[KBB[Kcache_alignment : 64
+:[K[K [KESCESC[KOO[KBB[Kaddress sizes   : 39 bits physical, 48 bits virtual
+:[K[K [KESCESC[KOO[KBB[Kpower management:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[Kprocessor       : 3
+:[K[K [KESCESC[KOO[KBB[Kvendor_id       : GenuineIntel
+:[K[K [KESCESC[KOO[KBB[Kcpu family      : 6
+:[K[K [KESCESC[KOO[KBB[Kmodel           : 142
+:[K[K [KESCESC[KOO[KBB[Kmodel name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+:[K[K [KESCESC[KOO[KBB[Kstepping        : 10
+:[K[K [KESCESC[KOO[KBB[Kmicrocode       : 0xb4
+:[K[K [KESCESC[KOO[KBB[Kcpu MHz         : 833.473
+:[K[K [KESCESC[KOO[KBB[Kcache size      : 6144 KB
+:[K[K [KESCESC[KOO[KBB[Kphysical id     : 0
+:[K[K [KESCESC[KOO[KBB[Ksiblings        : 8
+:[K[K [KESCESC[KOO[KBB[Kcore id         : 3
+:[K[K [KESCESC[KOO[KBB[Kcpu cores       : 4
+:[K[K [KESCESC[KOO[KBB[Kapicid          : 6
+:[K[K [KESCESC[KOO[KBB[Kinitial apicid  : 6
+:[K[K [KESCESC[KOO[KBB[Kfpu             : yes
+:[K[K [KESCESC[KOO[KBB[Kfpu_exception   : yes
+:[K[K [KESCESC[KOO[KBB[Kcpuid level     : 22
+:[K[K [KESCESC[KOO[KBB[Kwp              : yes
+:[K[K [KESCESC[KOO[KBB[Kflags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt :[K[K [KESCESC[KOO[KBB[Ks rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_time :[K[K [KESCESC[KOO[KBB[Kr aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clfl :[K[K [KESCESC[KOO[KBB[Kushopt intel_pt xsaveopt xsavec xgetbv1 xsaves ibpb ibrs stibp dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+:[K[K [KESCESC[KOO[KBB[Kbugs            : cpu_meltdown spectre_v1 spectre_v2
+:[K[K [KESCESC[KOO[KBB[Kbogomips        : 3600.00
+:[K[K [KESCESC[KOO[KBB[Kclflush size    : 64
+:[K[K [KESCESC[KOO[KBB[Kcache_alignment : 64
+:[K[K [KESCESC[KOO[KBB[Kaddress sizes   : 39 bits physical, 48 bits virtual
+:[K[K [KESCESC[KOO[KBB[Kpower management:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[Kprocessor       : 4
+:[K[K [KESCESC[KOO[KBB[Kvendor_id       : GenuineIntel
+:[K[K [KESCESC[KOO[KBB[Kcpu family      : 6
+:[K[K [KESCESC[KOO[KBB[Kmodel           : 142
+:[K[K [KESCESC[KOO[KBB[Kmodel name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+:[K[K [KESCESC[KOO[KBB[Kstepping        : 10
+:[K[K [KESCESC[KOO[KBB[Kmicrocode       : 0xb4
+:[K[K [KESCESC[KOO[KBB[Kcpu MHz         : 829.211
+:[K[K [KESCESC[KOO[KBB[Kcache size      : 6144 KB
+:[K[K [KESCESC[KOO[KBB[Kphysical id     : 0
+:[K[K [KESCESC[KOO[KBB[Ksiblings        : 8
+:[K[K [KESCESC[KOO[KBB[Kcore id         : 0
+:[K[K [KESCESC[KOO[KBB[Kcpu cores       : 4
+:[K[K [KESCESC[KOO[KBB[Kapicid          : 1
+:[K[K [KESCESC[KOO[KBB[Kinitial apicid  : 1
+:[K[K [KESCESC[KOO[KBB[Kfpu             : yes
+:[K[K [KESCESC[KOO[KBB[Kfpu_exception   : yes
+:[K[K [KESCESC[KOO[KBB[Kcpuid level     : 22
+:[K[K [KESCESC[KOO[KBB[Kwp              : yes
+:[K[K [KESCESC[KOO[KBB[Kflags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt :[K[K [KESCESC[KOO[KBB[Ks rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_time :[K[K [KESCESC[KOO[KBB[Kr aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clfl :[K[K [KESCESC[KOO[KBB[Kushopt intel_pt xsaveopt xsavec xgetbv1 xsaves ibpb ibrs stibp dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+:[K[K [KESCESC[KOO[KBB[Kbugs            : cpu_meltdown spectre_v1 spectre_v2
+:[K[K [KESCESC[KOO[KBB[Kbogomips        : 3600.00
+:[K[K [KESCESC[KOO[KBB[Kclflush size    : 64
+:[K[K [KESCESC[KOO[KBB[Kcache_alignment : 64
+:[K[K [KESCESC[KOO[KBB[Kaddress sizes   : 39 bits physical, 48 bits virtual
+:[K[K [KESCESC[KOO[KBB[Kpower management:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[Kprocessor       : 5
+:[K[K [KESCESC[KOO[KBB[Kvendor_id       : GenuineIntel
+:[K[K [KESCESC[KOO[KBB[Kcpu family      : 6
+:[K[K [KESCESC[KOO[KBB[Kmodel           : 142
+:[K[K [KESCESC[KOO[KBB[Kmodel name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+:[K[K [KESCESC[KOO[KBB[Kstepping        : 10
+:[K[K [KESCESC[KOO[KBB[Kmicrocode       : 0xb4
+:[K[K [KESCESC[KOO[KBB[Kcpu MHz         : 799.434
+:[K[K [KESCESC[KOO[KBB[Kcache size      : 6144 KB
+:[K[K [KESCESC[KOO[KBB[Kphysical id     : 0
+:[K[K [KESCESC[KOO[KBB[Ksiblings        : 8
+:[K[K [KESCESC[KOO[KBB[Kcore id         : 1
+:[K[K [KESCESC[KOO[KBB[Kcpu cores       : 4
+:[K[K [KESCESC[KOO[KBB[Kapicid          : 3
+:[K[K [KESCESC[KOO[KBB[Kinitial apicid  : 3
+:[K[K [KESCESC[KOO[KBB[Kfpu             : yes
+:[K[K [KESCESC[KOO[KBB[Kfpu_exception   : yes
+:[K[K [KESCESC[KOO[KBB[Kcpuid level     : 22
+:[K[K [KESCESC[KOO[KBB[Kwp              : yes
+:[K[K [KESCESC[KOO[KBB[Kflags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt :[K[K [KESCESC[KOO[KBB[Ks rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_time :[K[K [KESCESC[KOO[KBB[Kr aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clfl :[K[K [KESCESC[KOO[KBB[Kushopt intel_pt xsaveopt xsavec xgetbv1 xsaves ibpb ibrs stibp dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+:[K[K [KESCESC[KOO[KBB[Kbugs            : cpu_meltdown spectre_v1 spectre_v2
+:[K[K [KESCESC[KOO[KBB[Kbogomips        : 3600.00
+:[K[K [KESCESC[KOO[KBB[Kclflush size    : 64
+:[K[K [KESCESC[KOO[KBB[Kcache_alignment : 64
+:[K[K [KESCESC[KOO[KBB[Kaddress sizes   : 39 bits physical, 48 bits virtual
+:[K[K [KESCESC[KOO[KBB[Kpower management:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[Kprocessor       : 6
+:[K[K [KESCESC[KOO[KBB[Kvendor_id       : GenuineIntel
+:[K[K [KESCESC[KOO[KBB[Kcpu family      : 6
+:[K[K [KESCESC[KOO[KBB[Kmodel           : 142
+:[K[K [KESCESC[KOO[KBB[Kmodel name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+:[K[K [KESCESC[KOO[KBB[Kstepping        : 10
+:[K[K [KESCESC[KOO[KBB[Kmicrocode       : 0xb4
+:[K[K [KESCESC[KOO[KBB[Kcpu MHz         : 741.789
+:[K[K [KESCESC[KOO[KBB[Kcache size      : 6144 KB
+:[K[K [KESCESC[KOO[KBB[Kphysical id     : 0
+:[K[K [KESCESC[KOO[KBB[Ksiblings        : 8
+:[K[K [KESCESC[KOO[KBB[Kcore id         : 2
+:[K[K [KESCESC[KOO[KBB[Kcpu cores       : 4
+:[K[K [KESCESC[KOO[KBB[Kapicid          : 5
+:[K[K [KESCESC[KOO[KBB[Kinitial apicid  : 5
+:[K[K [KESCESC[KOO[KBB[Kfpu             : yes
+:[K[K [KESCESC[KOO[KBB[Kfpu_exception   : yes
+:[K[K [KESCESC[KOO[KBB[Kcpuid level     : 22
+:[K[K [KESCESC[KOO[KBB[Kwp              : yes
+:[K[K [KESCESC[KOO[KBB[Kflags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt :[K[K [KESCESC[KOO[KBB[Ks rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_time :[K[K [KESCESC[KOO[KBB[Kr aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clfl :[K[K [KESCESC[KOO[KBB[Kushopt intel_pt xsaveopt xsavec xgetbv1 xsaves ibpb ibrs stibp dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+:[K[K [KESCESC[KOO[KBB[Kbugs            : cpu_meltdown spectre_v1 spectre_v2
+:[K[K [KESCESC[KOO[KBB[Kbogomips        : 3600.00
+:[K[K [KESCESC[KOO[KBB[Kclflush size    : 64
+:[K[K [KESCESC[KOO[KBB[Kcache_alignment : 64
+:[K[K [KESCESC[KOO[KBB[Kaddress sizes   : 39 bits physical, 48 bits virtual
+:[K[K [KESCESC[KOO[KBB[Kpower management:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[Kprocessor       : 7
+:[K[K [KESCESC[KOO[KBB[Kvendor_id       : GenuineIntel
+:[K[K [KESCESC[KOO[KBB[Kcpu family      : 6
+:[K[K [KESCESC[KOO[KBB[Kmodel           : 142
+:[K[K [KESCESC[KOO[KBB[Kmodel name      : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+:[K[K [KESCESC[KOO[KBB[Kstepping        : 10
+:[K[K [KESCESC[KOO[KBB[Kmicrocode       : 0xb4
+:[K[K [KESCESC[KOO[KBB[Kcpu MHz         : 750.973
+:[K[K [KESCESC[KOO[KBB[Kcache size      : 6144 KB
+:[K[K [KESCESC[KOO[KBB[Kphysical id     : 0
+:[K[K [KESCESC[KOO[KBB[Ksiblings        : 8
+:[K[K [KESCESC[KOO[KBB[Kcore id         : 3
+:[K[K [KESCESC[KOO[KBB[Kcpu cores       : 4
+:[K[K [KESCESC[KOO[KBB[Kapicid          : 7
+:[K[K [KESCESC[KOO[KBB[Kinitial apicid  : 7
+:[K[K [KESCESC[KOO[KBB[Kfpu             : yes
+:[K[K [KESCESC[KOO[KBB[Kfpu_exception   : yes
+:[K[K [KESCESC[KOO[KBB[Kcpuid level     : 22
+:[K[K [KESCESC[KOO[KBB[Kwp              : yes
+:[K[K [KESCESC[KOO[KBB[Kflags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bt :[K[K [KESCESC[KOO[KBB[Ks rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movb

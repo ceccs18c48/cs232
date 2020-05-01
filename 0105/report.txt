@@ -1,0 +1,200 @@
+CEC CS 18 C48
+Remya C
+
+Mac Address: ba:f9:9d:49:88:56
+IP Address: 192.168.42.119
+
+--------------------------------
+
+#1: Shell script to show various system configuration like (s4)
+
+ 1.Currently logged user and his login name 
+ 2.Your current shell 
+ 3.Your home directory 
+ 4.Your operating system type 
+ 5.Your current path setting 
+ 6.Your current working directory 
+ 7.Number of users currently logged in 
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	#Shell script: syscos4.sh
+
+	#To edit the shell script
+
+		nano syscos4.sh
+
+	#To run the shell script
+
+		chmod +x syscos4.sh
+
+		./syscos4.sh
+
+
+---------------------------------
+Input:
+
+   syscos4.sh
+
+--------------------------------
+Output:
+
+   Various system configurations are displayed.
+
+-------------------
+Remarks if any:
+
+   Screenshot of the output is attached(sysco.png).
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+#2:Shell  script to show various system configurations like(s5) 
+
+ 1.Your OS and version, release number, kernel version 
+ 2.All available shells 
+ 3.Computer CPU information like processor type, speed etc 
+ 4.Memory information 
+ 5.Hard disk information like size of hard-disk, cache memory, model etc 
+ 6.File system (Mounted) 
+
+----------------------------------------
+Command/Shell script/Program name
+---------------------------------
+	#Shell script: syscos5.sh
+
+	#To edit the shell script
+
+		nano syscos5.sh
+
+	#To run the shell script
+
+		chmod +x syscos5.sh
+
+		./syscos5.sh
+
+
+---------------------------------
+Input: 
+
+   syscos5.sh
+
+---------------------------------------
+
+Output:
+  
+   System Configurations are displayed(sys5.txt).
+
+----------------------------------------
+
+Remarks if any:
+   
+	A text file containing the output of system configurations is attached(sys5.txt).
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+#3:Shell script to implement a menu driven calculator(s6)
+
+1.  Addition 
+2.  Subtraction 
+3.  Multiplication 
+4.  Division 
+5.  Modulus
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	#Shell script: calc.sh
+
+	#To edit the shell script
+
+		nano calc.sh
+
+	#To run the shell script
+
+		chmod +x calc.sh
+
+		./calc.sh
+
+---------------------------------
+
+Output:
+
+     	#1)
+	Enter two operand values:
+	9
+	6
+	Enter your choice :
+	1.Addition
+	2.Subtraction
+	3.Multiplication
+	4.Division
+	5.Modulus
+	1
+	Sum is 15
+
+	#2)
+	Enter two operand values:
+	9
+	6
+	Enter your choice :
+	1.Addition
+	2.Subtraction
+	3.Multiplication
+	4.Division
+	5.Modulus
+	2
+	Difference is 3
+
+	#3)Multiplication
+	Enter two operand values:
+	9
+	6
+	Enter your choice :
+	1.Addition
+	2.Subtraction
+	3.Multiplication
+	4.Division
+	5.Modulus
+	3
+	Product is 54
+	
+	#4)Division
+	Enter two operand values:
+	9
+	3
+	Enter your choice :
+	1.Addition
+	2.Subtraction
+	3.Multiplication
+	4.Division
+	5.Modulus
+	3 4
+	Quotient is 3
+	
+	#5)Modulus
+	Enter two operand values:
+	9
+	6
+	Enter your choice :
+	1.Addition
+	2.Subtraction
+	3.Multiplication
+	4.Division
+	5.Modulus
+	5
+	Remainder is 3
+
+
+-------------------
+Remarks if any:
+	
+	Screenshot of output is attached(calc.png).
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+
